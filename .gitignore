@@ -1,0 +1,51 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore coverage reports
+coverage/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore dependency directories
+jspm_packages/
+bower_components/
+
+# Ignore compiled files
+*.out
+*.class
+
+# Ignore Python files
+__pycache__/
+*.py[cod]
+
+# Ignore backup files
+*.bak
+*.old
+*.orig
+
+# Ignore other IDE-specific files
+*.iml
+*.ipr
+*.iws
